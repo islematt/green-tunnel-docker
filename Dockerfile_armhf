@@ -1,0 +1,7 @@
+FROM node:latest
+LABEL maintainer="crowjdh@gmail.com"
+
+RUN npm install -g green-tunnel
+
+EXPOSE 8090
+

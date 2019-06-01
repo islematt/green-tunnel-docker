@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t green-tunnel -f Dockerfile_armhf .
+
