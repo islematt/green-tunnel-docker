@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run -ti --rm --name gt -p 0.0.0.0:8090:8090 green-tunnel
+
