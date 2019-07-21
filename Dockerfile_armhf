@@ -3,5 +3,7 @@ LABEL maintainer="crowjdh@gmail.com"
 
 RUN npm install -g green-tunnel
 
+COPY schemas /usr/share/glib-2.0/schemas
+
 EXPOSE 8090
 

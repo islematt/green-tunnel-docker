@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run --restart unless-stopped -d --name gt --net host green-tunnel:armhf gt --ip 0.0.0.0 --port 8090
+
