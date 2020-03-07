@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t green-tunnel:armhf -f Dockerfile_armhf .
+docker build -t islematt/green-tunnel:armhf -f Dockerfile_armhf .
 
